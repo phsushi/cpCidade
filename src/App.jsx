@@ -32,8 +32,9 @@ function App() {
       <div className="box"> 
         <Header/>
         <form>
-          <div>
-            <label htmlfor="altura"><span>(exemplo:1.80)</span></label>
+          <div className="input-box">
+            <label htmlfor="altura">Altura <span>(exemplo:1.80)</span></label>
+            <br />
             <input
               type="number"
               id="altura"
@@ -43,8 +44,9 @@ function App() {
             />
           </div>
 
-          <div>
-            <label htmlfor="peso"><span>(exemplo:80)</span></label>
+          <div className="input-box">
+            <label htmlfor="peso">Peso <span>(exemplo:80)</span></label>
+            <br />
             <input
               type="number"
               id="peso"

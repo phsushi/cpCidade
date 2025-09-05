@@ -26,6 +26,19 @@ label{
     flex-direction: column;
     width: 90%;
     padding: 4px;
-    border: solid 1px;
     align-items: center;
+}
+
+input{
+    width: 35vw;
+    height: 7vh;
+    border:solid 1px gray;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

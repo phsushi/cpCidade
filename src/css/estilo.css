@@ -30,11 +30,12 @@ label{
 }
 
 input{
-    width: 35vw;
+    width: 36vw;
     height: 7vh;
-    border:solid 1px gray;
-    padding: 4px;
+    border:solid 1px rgb(156, 156, 156);
+    padding-left: 15px;
     border-radius: 20px;
+    transition: transform 300ms ease-in-out;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -42,3 +43,11 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+input::placeholder{
+    color:rgb(184, 184, 184) ;
+}
+input:hover{
+    transform: scale(1.015);
+}
+input:

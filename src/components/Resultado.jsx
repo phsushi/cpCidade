@@ -5,12 +5,11 @@ import TabelaImc from "./TabelaImc"
 //destruct - Desestruturação - acessa os dados de outro componente
 function Resultado({resultado}){
     return (
-        <div>
+        <div className="container-resultado">
             <div className="tabela">
                 <h2>
                     Seu IMC é de: <span class name="imcSpan">{resultado}</span>
                 </h2>
-
             </div>
 
             <table className='tabela'>
@@ -23,7 +22,6 @@ function Resultado({resultado}){
                 <tbody className="tabelaBody">
                     <tr>{TabelaImc(resultado)}</tr>
                 </tbody>
-
             </table>
         </div>
     )

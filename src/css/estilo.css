@@ -74,3 +74,6 @@ button:hover{
     background-color: #181818;
     border: solid 2px black;
 }
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}

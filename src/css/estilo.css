@@ -31,7 +31,9 @@ label{
 
 input{
     width: 36vw;
+    max-width: 300px;
     height: 7vh;
+    max-height: 50px;
     border:solid 1px rgb(156, 156, 156);
     padding-left: 15px;
     border-radius: 20px;
@@ -50,4 +52,24 @@ input::placeholder{
 input:hover{
     transform: scale(1.015);
 }
-input:
+
+button{
+    width: 150px;
+    height: 6vh;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 550ms ease-in-out;
+}
+
+button:hover{
+    background-color: #181818;
+    border: solid 2px black;
+}

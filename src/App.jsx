@@ -40,7 +40,7 @@ function App() {
               id="altura"
               placeholder="Digite sua altura (exemplo:1.80)"
               value={altura}
-              min={0}
+              
               onChange={(e)=>setAltura(parseFloat(e.target.value))}
             />
           </div>
@@ -53,7 +53,7 @@ function App() {
               id="peso"
               placeholder="Digite seu peso (exemplo:80)"
               value={peso}
-              min={0}
+              
               onChange={(e)=>setPeso(parseFloat(e.target.value))}
             />
           </div>

@@ -1,14 +1,13 @@
 .tabela{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    color: white;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
 }
 .tabelaHeader{
-    display: flex;
     width: 100%;
-    border: solid 1px;
-    justify-content: center;
 }
 
 .tabelaHeader tr {
@@ -18,4 +17,17 @@
 .tabelaHeader tr th{
     flex: 1;
     border: solid 1px;
+}
+.tabelaBody{
+    width: 100%;
+
+}
+.tabelaBody tr{
+    display: flex;
+}
+.tabelaBody tr td{
+    flex: 1;
+    border: solid 1px;
+    height: 50px;
+    
 }
